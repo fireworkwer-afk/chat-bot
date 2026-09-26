@@ -1,0 +1,36 @@
+id,category,topic,value,details
+1,project,project_name,Local AI Assistant,This project is a free local AI chatbot that runs on my own computer.
+2,project,goal,Build a Gemini-like local AI assistant,The assistant should chat use my own data remember useful information search the internet when needed and eventually use tools.
+3,project,editor,Visual Studio Code,The project is developed in Visual Studio Code.
+4,project,language,Python,Python is the main programming language for the backend and AI integration.
+5,project,local_model_runtime,Ollama,Ollama is used to run the AI model locally on the computer.
+6,project,model,Qwen,The initial local model is a Qwen model running through Ollama.
+7,project,backend,FastAPI,FastAPI will be used to create the local web/API backend.
+8,project,database,SQLite,SQLite will be used for persistent local memory and application data.
+9,project,rag,Retrieval-Augmented Generation,RAG will let the assistant answer questions using the user's documents without retraining the model every time.
+10,project,vector_database,ChromaDB,ChromaDB can be used later to store searchable document embeddings for RAG.
+11,project,data_sources,"CSV, TXT, PDF, DOCX",The assistant should eventually learn useful information from local documents.
+12,project,internet,Web search,The assistant should be able to retrieve current information from the internet when needed.
+13,project,memory,Long-term memory,The assistant should store selected useful facts from conversations in a local database.
+14,project,interface,Web chat interface,The final application should have a chat interface similar in concept to modern AI assistants.
+15,project,voice,Voice input and output,Voice features may be added after the core chatbot RAG and memory systems work.
+16,project,vision,Image understanding,Image understanding may be added later so the assistant can analyze screenshots and images.
+17,project,network,Local Wi-Fi access,The finished application may be accessible from other devices on the same trusted local network.
+18,learning,phase_1,Run a local model,Install Ollama and successfully chat with a local model.
+19,learning,phase_2,Build Python chatbot,Connect Python to Ollama and create a basic terminal chatbot.
+20,learning,phase_3,Add project data,Load this CSV and other documents as knowledge for the assistant.
+21,learning,phase_4,Add RAG,Search relevant project information and provide it to the local model before answering.
+22,learning,phase_5,Add memory,Store and retrieve useful conversation information using SQLite.
+23,learning,phase_6,Add internet search,Allow the assistant to retrieve current web information when appropriate.
+24,learning,phase_7,Add tools,Allow controlled actions such as calculations file analysis and document creation.
+25,learning,phase_8,Add voice and vision,Add speech and image capabilities after the core system is stable.
+26,learning,phase_9,Build UI,Create a polished browser-based interface with chat history file upload and settings.
+27,learning,phase_10,Security,Add authentication and safe permissions before allowing access from other devices.
+28,assistant_behavior,role,Private local AI assistant,Help with programming project information documents research and general tasks.
+29,assistant_behavior,knowledge_rule,Use retrieved information when available,When answering questions about the user's project or files prefer relevant retrieved information over guessing.
+30,assistant_behavior,accuracy_rule,Do not invent facts,If the available information is insufficient say that more information is needed instead of making up an answer.
+31,people,boss,Abhi (coolbro_abhi),The boss of this project is Abhi also known as coolbro_abhi.
+32,people,creator,Abhi (coolbro_abhi),This local AI project was created by Abhi also known as coolbro_abhi.
+33,people,owner,Abhi (coolbro_abhi),The owner of this project is Abhi also known as coolbro_abhi.
+34,people,who_is_abhi,Abhi (coolbro_abhi),Abhi is the person who created and owns this local AI project.
+35,people,username,coolbro_abhi,The project creator's username is coolbro_abhi.

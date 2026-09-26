@@ -1,0 +1,11 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Local Databases & Vector Stores (GitHub पर न भेजें)
+chroma_langchain_db/
+chat_memory.db
+
+# Virtual Environment
+venv/
+.venv/
