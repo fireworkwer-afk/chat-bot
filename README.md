@@ -9,7 +9,7 @@ An intelligent, privacy-focused hybrid AI chatbot created by **Abhi (coolbro_abh
 * 🌐 **Dual-Mode Operation:**
   * **Online Mode:** Automatically detects internet connectivity and fetches real-time news/information using DuckDuckGo/Google search.
   * **Offline Mode:** Seamlessly falls back to local knowledge base (`reviews.csv`) powered by ChromaDB vector store when internet is unavailable.
-* 🔒 **100% Local LLM:** Runs fully on your hardware using **Ollama** (`llama3.2`) and local embeddings (`mxbai-embed-large`)[cite: 2].
+* 🔒 **100% Local LLM:** Runs fully on your hardware using **Ollama** (`qwen2.5:1.5b`) and local embeddings (`mxbai-embed-large`)[cite: 2].
 * ⚡ **Retrieval-Augmented Generation (RAG):** Uses LangChain and ChromaDB to perform fast vector similarity search over your custom dataset[cite: 2].
 * 🎨 **Interactive UI/UX:** Built with Streamlit for a clean, browser-based chat interface.
 
@@ -18,7 +18,7 @@ An intelligent, privacy-focused hybrid AI chatbot created by **Abhi (coolbro_abh
 ## 🛠️ Tech Stack
 
 * **Language:** Python
-* **LLM Runtime:** Ollama (`llama3.2`)[cite: 2]
+* **LLM Runtime:** Ollama (`qwen2.5:1.5b`)[cite: 2]
 * **Embedding Model:** `mxbai-embed-large`[cite: 2]
 * **Framework:** LangChain[cite: 2]
 * **Vector Database:** ChromaDB[cite: 2]
@@ -41,8 +41,9 @@ An intelligent, privacy-focused hybrid AI chatbot created by **Abhi (coolbro_abh
 Make sure you have Ollama installed on your computer. Pull the required models via your terminal:
 
 Bash
-ollama pull llama3.2
+ollama pull qwen2.5:1.5b
 ollama pull mxbai-embed-large
+
 2. Clone the Repository
 Bash
 git clone [https://github.com/your-username/local-ai-assistant.git](https://github.com/your-username/local-ai-assistant.git)
